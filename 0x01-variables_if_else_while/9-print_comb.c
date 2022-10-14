@@ -15,5 +15,11 @@ int main(void)
 	{
 		putchar(digit);
 		if (digit == '9')
+			continue;
 
-
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+	return (0);
+}
